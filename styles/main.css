@@ -6,7 +6,7 @@
 :root {
   --primary-radius: 2em;
   --animation-timing: cubic-bezier(0.22, 0.61, 0.36, 1);
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Arial", sans-serif;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
