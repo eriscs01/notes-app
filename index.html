@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple note-taking app." />
     <title>Notes</title>
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/elements/button.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/elements/card.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/elements/text.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/elements/footer.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/elements/body.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/elements/header.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/elements/material-icons.css" />
     <link rel="preconnect" href="https://images.unsplash.com" />
     <link
-      rel="stylesheet"
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
       href="styles/themes/light.css"
       media="(prefers-color-scheme: light)"
     />
@@ -26,20 +35,26 @@
       href="styles/animations.css"
       media="(prefers-reduced-motion: no-preference)"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      rel="preload"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
     />
-    <link
-      rel="preload"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
-    />
   </head>
+  <style>
+    :root {
+      --primary-radius: 2em;
+      --animation-timing: cubic-bezier(0.22, 0.61, 0.36, 1);
+      font-family: "Raleway", "Arial", sans-serif;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  </style>
   <body>
     <header>
       <h1 style="margin: unset">Notes</h1>
