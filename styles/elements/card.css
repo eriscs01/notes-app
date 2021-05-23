@@ -1,0 +1,25 @@
+ul {
+  list-style-type: none;
+  padding-inline-start: unset;
+  margin-bottom: calc(2em + 48px);
+}
+
+ul > li {
+  background-color: none;
+  border: var(--card-border-color) 2px solid;
+  padding: 1em 2em;
+  border-radius: var(--primary-radius);
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+ul > li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+ul > li:active {
+  border-radius: 1em;
+  background-color: var(--card-bg-active-color);
+}

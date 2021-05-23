@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --primary: hsl(190, 65%, 50%);
+  --primary-dark: hsl(190, 50%, 30%);
+  --primary-darker: hsl(190, 30%, 8%);
+  --primary-light: hsl(190, 65%, 73%);
+  --primary-lighter: hsl(190, 65%, 91%);
+
+  --secondary: hsl(34, 65%, 50%);
+  --secondary-dark: hsl(34, 50%, 30%);
+  --secondary-darker: hsl(34, 30%, 8%);
+  --secondary-light: hsl(34, 65%, 73%);
+  --secondary-lighter: hsl(34, 65%, 91%);
+
+  --bg-color: var(--primary-lighter);
+  --text-color: var(--primary-dark);
+  --primary-btn-bg-color: var(--primary-light);
+
+  /* button */
+  --btn-primary-text-color: var(--primary-darker);
+  --btn-primary-bg-color: var(--primary-light);
+  --btn-primary-hover-border-color: var(--primary);
+  --btn-primary-active-bg-color: var(--primary);
+
+  /* card */
+  --card-border-color: var(--primary);
+  --card-bg-active-color: var(--primary);
+
+  /* footer */
+  --footer-bg-color: var(--secondary-lighter);
+  --footer-icon-color: var(--secondary-light);
+  --footer-icon-active-color: var(--secondary);
+}

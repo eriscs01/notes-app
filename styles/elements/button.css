@@ -1,0 +1,23 @@
+button {
+  background-color: var(--btn-primary-bg-color);
+  border-radius: var(--primary-radius);
+  color: var(--btn-primary-text-color);
+  font-size: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  border: var(--btn-primary-hover-border-color) 2px solid;
+}
+
+button:active {
+  border-radius: 1em;
+  background-color: var(--btn-primary-active-bg-color);
+}
+
+button:focus-visible {
+  outline: var(--primary-color) dashed 3px;
+  border: none;
+}
+

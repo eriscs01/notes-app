@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --primary: hsl(190, 65%, 50%);
+  --primary-dark: hsl(190, 50%, 30%);
+  --primary-darker: hsl(190, 30%, 8%);
+  --primary-light: hsl(190, 65%, 73%);
+  --primary-lighter: hsl(190, 65%, 91%);
+
+  --secondary: hsl(270, 65%, 50%);
+  --secondary-dark: hsl(270, 50%, 30%);
+  --secondary-darker: hsl(270, 30%, 8%);
+  --secondary-light: hsl(270, 65%, 73%);
+  --secondary-lighter: hsl(270, 65%, 91%);
+
+  --bg-color: var(--primary-darker);
+  --text-color: var(--primary-lighter);
+  --primary-btn-bg-color: var(--primary-dark);
+  --card-bg-color: var(--primary-dark);
+  --primary-color: var(--primary);
+  --secondary-color: var(--secondary);
+}
+

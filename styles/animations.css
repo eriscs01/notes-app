@@ -1,0 +1,16 @@
+body {
+  transition: color 250ms var(--animation-timing);
+  transition: background-color 250ms var(--animation-timing);
+}
+
+button:not(:active) {
+  transition-property: border-radius, background-color;
+  transition-duration: 500ms;
+  transition-timing-function: var(--animation-timing);
+}
+
+ul>li:not(:active) {
+  transition-property: border-radius, background-color;
+  transition-duration: 500ms;
+  transition-timing-function: var(--animation-timing);
+}
