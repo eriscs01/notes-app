@@ -1,6 +1,7 @@
 body {
-  transition: color 250ms var(--animation-timing);
-  transition: background-color 250ms var(--animation-timing);
+  transition-property: color, background-color, filter;
+  transition-duration: 300ms;
+  transition-timing-function: var(--animation-timing);
 }
 
 button:not(:active) {

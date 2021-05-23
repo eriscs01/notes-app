@@ -40,7 +40,7 @@ body:before {
   -moz-filter: blur(50px);
   -o-filter: blur(50px);
   -ms-filter: blur(50px);
-  filter: blur(50px);
+  filter: blur(50px) brightness(var(--bg-brightness));
 }
 
 header {

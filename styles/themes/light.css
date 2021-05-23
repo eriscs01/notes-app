@@ -13,6 +13,7 @@
   --secondary-lighter: hsl(34, 65%, 91%);
 
   --bg-color: var(--primary-lighter);
+  --bg-brightness: 100%;
   --text-color: var(--primary-dark);
   --primary-btn-bg-color: var(--primary-light);
 
